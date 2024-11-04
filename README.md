@@ -29,9 +29,14 @@ source $HOME/.cargo/env
   ```
 3. **Install Solana CLI: Download and install the Solana CLI tool.**
  ```bash
-  sh -c "$(curl -sSfL https://release.solana.com/v1.10.32/install)"
+ sh -c "$(curl -sSfL https://release.solana.com/v1.18.26/install)"
   ```
-Verify installation:
+ After installation, run the following command to apply the PATH changes without restarting your terminal:
+
+ ```bash
+ export PATH="/Users/your-username/.local/share/solana/install/active_release/bin:$PATH"
+  ```
+ Verify installation:
  ```bash
 solana --version
 ```
