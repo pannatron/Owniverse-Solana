@@ -22,12 +22,12 @@ To set up the development environment for Solana, follow these steps:
    node -v
    npm -v
     ```
-2. **Install Rust: Rust is required for building smart contracts on Solana.
+2. **Install Rust: Rust is required for building smart contracts on Solana.**
  ```bash
    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
   ```
-3. **Install Solana CLI: Download and install the Solana CLI tool.
+3. **Install Solana CLI: Download and install the Solana CLI tool.**
  ```bash
   sh -c "$(curl -sSfL https://release.solana.com/v1.10.32/install)"
   ```
@@ -35,11 +35,11 @@ Verify installation:
  ```bash
 solana --version
 ```
-4. **Configure Solana CLI to use Devnet:
+4. **Configure Solana CLI to use Devnet**:
  ```bash
 solana config set --url https://api.devnet.solana.com
 ```
-5. **Install Anchor Framework (Optional): Anchor simplifies the development of Solana programs.
+5. **Install Anchor Framework (Optional): Anchor simplifies the development of Solana programs.**
  ```bash
 
 cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
@@ -47,7 +47,7 @@ avm install latest
 avm use latest
 
 ```
-6. **Clone the Repository: Clone the repository to start developing.
+6. **Clone the Repository: Clone the repository to start developing.**
  ```bash
 git clone https://github.com/pannatron/Owniverse-Solana.git
 cd Owniverse-Solana
