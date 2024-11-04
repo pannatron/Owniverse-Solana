@@ -18,14 +18,13 @@ To set up the development environment for Solana, follow these steps:
 
 1. **Install Node.js and npm/yarn**:
    Ensure Node.js is installed. You can download it [here](https://nodejs.org/). Verify installation with:
-   ```bash
+```bash
    node -v
    npm -v
-    ```
+   ```
 2. **Install Rust: Rust is required for building smart contracts on Solana.**
- ```bash
-   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env
+  ```bash
+   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh source $HOME/.cargo/env
   ```
 3. **Install Solana CLI: Download and install the Solana CLI tool.**
  ```bash
