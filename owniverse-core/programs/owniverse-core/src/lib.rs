@@ -6,10 +6,10 @@ pub mod instructions;
 
 use instructions::*;
 
-declare_id!("7EqTjwTLZgaxvVjzmLXf5taVHzKSqbXFpLHtfqdVtE4k");
+declare_id!("4wkNwvbqXtETA62ateGv5gk7y1htP5Dk5dMzty9urKhp");
 
 #[program]
-pub mod transfer_tokens {
+pub mod owniverse_core {
     use super::*;
 
     pub fn create_token(
